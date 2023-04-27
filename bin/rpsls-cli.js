@@ -45,6 +45,6 @@ try {
     const res = rpsls(args._[0]);
     console.log(JSON.stringify(res));
 } catch (error) {
-    console.error(error);
+    console.log(rules);
     process.exit(1);
 }
