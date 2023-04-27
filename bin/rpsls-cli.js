@@ -45,6 +45,7 @@ try {
     const res = rpsls(args._[0]);
     console.log(JSON.stringify(res));
 } catch (error) {
+    console.error("move is out of range");
     console.log(rules);
     process.exit(1);
 }
