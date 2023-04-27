@@ -24,7 +24,6 @@ if (args.h || args.help){
     }   
 
 
-if (args.r || args.rules){
     var rules = `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
     - Scissors CUTS Paper
@@ -37,6 +36,7 @@ if (args.r || args.rules){
     - Paper DISPROVES Spock
     - Spock VAPORIZES Rock
     - Rock CRUSHES Scissors`
+if (args.r || args.rules){
     console.log(rules)
     process.exit();
     }
