@@ -24,11 +24,11 @@ if (args.h || args.help){
     }
 
 
-if (args.r || args.rules){
-    let rules = `Rules for Rock Paper Scissors:   
+let rules = `Rules for Rock Paper Scissors:   
     - Scissors CUTS Paper
     - Paper COVERS Rock
     - Rock CRUSHES Scissors`
+if (args.r || args.rules){
     console.log(rules)
     process.exit();
 }
@@ -37,7 +37,7 @@ try {
     const res = rps(args._[0]);
     console.log(JSON.stringify(res));
 } catch (error) {
-    console.log("There was an error");
-    console.log(error);
+    console.error("move is out of range");
+    console.log(rules);
     process.exit(1);
 }
