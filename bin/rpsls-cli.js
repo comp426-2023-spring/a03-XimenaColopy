@@ -43,7 +43,6 @@ if (args.r || args.rules){
 
 try {
     const res = rpsls(args._[0]);
-    console.log('res was called');
     console.log(JSON.stringify(res));
 } catch (error) {
     process.exit(1);
