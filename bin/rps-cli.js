@@ -1,4 +1,4 @@
-#!/usr/bin/env node //shebang
+#!/usr/bin/env node
 //should run when you link/install node-rps
 //rock paper scissors
 import {rps} from "../lib/rpsls.js"

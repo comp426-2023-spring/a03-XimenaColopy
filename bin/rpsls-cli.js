@@ -1,8 +1,8 @@
-#!/usr/bin/env node //shebang
+#!/usr/bin/env node
 //going to run when you link/install the package and run node-rpsls
 //rock, paper, scissors, lizard spock
 
-import {rpsls, rps} from "../lib/rpsls.js"
+import {rpsls} from "../lib/rpsls.js"
 import minimist from 'minimist';
 
 const args  = minimist(process.argv.slice(2));
