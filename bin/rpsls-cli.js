@@ -25,7 +25,7 @@ if (args.h || args.help){
 
 
 if (args.r || args.rules){
-    let rules = `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
+    var rules = `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
     - Scissors CUTS Paper
     - Paper COVERS Rock
